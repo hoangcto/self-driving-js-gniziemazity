@@ -1,7 +1,7 @@
 # self-driving-js-gniziemazity
 
 This is the code I wrote following the Self-driving car (no libraries) JavaScript course by @gniziemazity:
-[Link]([https://link-url-here.org](https://www.youtube.com/watch?v=Rs_rAxEsAvI))
+[Link](https://link-url-here.org](https://www.youtube.com/watch?v=Rs_rAxEsAvI)
   
 The code will appear as the course progresses and will be divided into parts as follows:
   1. Car driving mechanics 
