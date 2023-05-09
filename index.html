@@ -5,12 +5,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <canvas id="carCanvas"></canvas>
-    <div id="verticalButtons">
+    <div id="verticalButtons" width="200px">
         <button onclick="save()">💾</button>
         <button onclick="discard()">🗑️</button>
     </div>
     <canvas id="networkCanvas"></canvas>
+    <div class="textfield">
+        This is self-driving car simulation with 100 cars in active.
+        <br>
+        <br>
+        Refresh page to spawn a new wave of training. You can save the best performing car by clicking the button and refresh to start a new training based on your best car. 
+        <br>
+        <br>
+        GOOD LUCK :)</p>
+    </div>
+    
     <script src="visualizer.js"></script>
     <script src="network.js"></script>
     <script src="sensor.js"></script>

@@ -4,7 +4,13 @@ body {
     overflow:hidden;
     display:flex;
     justify-content: center;
-    align-items: center;
+    align-items:start;
+}
+
+.textfield{
+    background: white;
+    max-width: 400px;
+    padding: 5px;
 }
 
 #verticalButtons{
@@ -29,4 +35,8 @@ button:hover{
 }
 #networkCanvas{
     background: black;
+}
+
+#desCanvas{
+    background: white;
 }
