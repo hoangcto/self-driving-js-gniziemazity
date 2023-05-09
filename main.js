@@ -1,7 +1,7 @@
 const carCanvas = document.getElementById("carCanvas");
-carCanvas.width = 240;
+carCanvas.width = 250;
 const networkCanvas = document.getElementById("networkCanvas");
-networkCanvas.width = 400;
+networkCanvas.width = 350;
 
 const carCtx = carCanvas.getContext("2d");
 const networkCtx = networkCanvas.getContext("2d");
