@@ -5,13 +5,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <canvas id="carCanvas"></canvas>
-    <div id="verticalButtons" width="200px">
-        <button onclick="save()">💾</button>
-        <button onclick="discard()">🗑️</button>
+    <div class="simulation">
+        <canvas id="carCanvas"></canvas>
+        <div id="verticalButtons" width="200px">
+            <button onclick="save()">💾</button>
+            <button onclick="discard()">🗑️</button>
+        </div>
+        <canvas id="networkCanvas"></canvas>
     </div>
-    <canvas id="networkCanvas"></canvas>
     <div class="textfield">
         This is self-driving car simulation with 100 cars in a training cohort under randomized traffic.
         <br>

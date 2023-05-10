@@ -6,6 +6,11 @@ body {
     justify-content: center;
     align-items:start;
 }
+.simulation {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
 
 .textfield{
     background: white;
