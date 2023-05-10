@@ -21,14 +21,16 @@ if(localStorage.getItem("bestBrain")){
 }
 
 const traffic = [
-    new Car(road.getLaneCenter(1), -100, 30, 50,"DUMMY", 2, getRandomColor()),
-    new Car(road.getLaneCenter(0), -300, 30, 50,"DUMMY", 2, getRandomColor()),
-    new Car(road.getLaneCenter(4), -100, 30, 50,"DUMMY", 2, getRandomColor()),
-    new Car(road.getLaneCenter(2), -300, 30, 50,"DUMMY", 2, getRandomColor()),
-    new Car(road.getLaneCenter(0), -500, 30, 50,"DUMMY", 2, getRandomColor()),
-    new Car(road.getLaneCenter(1), -500, 30, 50,"DUMMY", 2, getRandomColor()),
-    new Car(road.getLaneCenter(3), -700, 30, 50,"DUMMY", 2, getRandomColor()),
-    new Car(road.getLaneCenter(2), -700, 30, 50,"DUMMY", 2, getRandomColor())
+    new Car(road.getLaneCenter(Math.floor(Math.random()*(road.laneCount))), -100, 30, 50,"DUMMY", 2, getRandomColor()),
+    new Car(road.getLaneCenter(Math.floor(Math.random()*(road.laneCount))), -100, 30, 50,"DUMMY", 2, getRandomColor()),
+    new Car(road.getLaneCenter(Math.floor(Math.random()*(road.laneCount))), -300, 30, 50,"DUMMY", 2, getRandomColor()),
+    new Car(road.getLaneCenter(Math.floor(Math.random()*(road.laneCount))), -300, 30, 50,"DUMMY", 2, getRandomColor()),
+    new Car(road.getLaneCenter(Math.floor(Math.random()*(road.laneCount))), -500, 30, 50,"DUMMY", 2, getRandomColor()),
+    new Car(road.getLaneCenter(Math.floor(Math.random()*(road.laneCount))), -500, 30, 50,"DUMMY", 2, getRandomColor()),
+    new Car(road.getLaneCenter(Math.floor(Math.random()*(road.laneCount))), -700, 30, 50,"DUMMY", 2, getRandomColor()),
+    new Car(road.getLaneCenter(Math.floor(Math.random()*(road.laneCount))), -700, 30, 50,"DUMMY", 2, getRandomColor()),
+    new Car(road.getLaneCenter(Math.floor(Math.random()*(road.laneCount))), -900, 30, 50,"DUMMY", 2, getRandomColor()),
+    new Car(road.getLaneCenter(Math.floor(Math.random()*(road.laneCount))), -900, 30, 50,"DUMMY", 2, getRandomColor())
 ];
 
 animate();
